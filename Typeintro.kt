@@ -1,10 +1,9 @@
-const val MAX_EXPERIENCE: Int = 5000
 fun main(){
-
-    var playerName = "謝博文"
+    val playerName = "Estragon"
     var experiencePoints: Int = 5
+    var hasSteed: Int = 0
     experiencePoints += 5
-    println(experiencePoints)
     println("玩家姓名:$playerName")
-    println("玩家經驗值:$MAX_EXPERIENCE")
+    println("經驗值:"+experiencePoints)
+    println("玩家坐騎總數量:"+hasSteed)
 }
