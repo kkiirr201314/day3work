@@ -1,3 +1,4 @@
+const val MAX_EXPERIENCE: Int = 5000
 fun main(){
 
     var playerName = "謝博文"
@@ -5,4 +6,5 @@ fun main(){
     experiencePoints += 5
     println(experiencePoints)
     println("玩家姓名:$playerName")
+    println("玩家經驗值:$MAX_EXPERIENCE")
 }
