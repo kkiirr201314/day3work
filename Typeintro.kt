@@ -1,6 +1,6 @@
 fun main(){
-    var playerName: String = "李政龍"
-    playerName = "謝博文"
+
+    var playerName = "謝博文"
     var experiencePoints: Int = 5
     experiencePoints += 5
     println(experiencePoints)
