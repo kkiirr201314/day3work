@@ -8,7 +8,6 @@ fun main(){
     var set = setOf("hydromel","wine","LaCroix sparkling wather")
     experiencePoints += 5
     println("英雄名字$playerName")
-    println("英雄名字${playerName.reversed()}")//文字鏡像
     println("經驗值:"+experiencePoints)
     println("玩家坐騎總數量:"+hasSteed)
     println("酒館名稱$barName")
